@@ -1,0 +1,67 @@
+* {
+    font-family: 'Ultra', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 90vh;
+
+    .element-container {
+        padding: 1.5rem;
+        font-size: 4rem;
+        color: #ff5400;
+        font-weight: 600;
+        text-shadow: 5px 14px 15px #231f1f59;
+
+
+    }
+
+    .circle {      
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .rectangle {
+        width: 20rem;
+        height: 8rem;
+       
+    }
+
+    .square {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .triangle {
+        width: 20rem;
+        height: 20rem;
+
+    }
+
+}
+.success-msg-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.success-msg {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.fire_img{
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+}
+

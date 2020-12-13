@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "websocket-tutorial": {
+    "virtial-teacher-web": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/websocket-tutorial",
+            "outputPath": "dist/virtial-teacher-web",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "websocket-tutorial:build"
+            "browserTarget": "virtial-teacher-web:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "websocket-tutorial:build:production"
+              "browserTarget": "virtial-teacher-web:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "websocket-tutorial:build"
+            "browserTarget": "virtial-teacher-web:build"
           }
         },
         "test": {
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "websocket-tutorial:serve"
+            "devServerTarget": "virtial-teacher-web:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "websocket-tutorial:serve:production"
+              "devServerTarget": "virtial-teacher-web:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "websocket-tutorial"
+  "defaultProject": "virtial-teacher-web"
 }
